@@ -9,24 +9,24 @@ function onehome(){
 }
 function twohome()
 {   sumhome+=2;
-    scoreHome.textContent+=sumhome;
+    scoreHome.textContent=sumhome;
 }
 function threehome(){
     sumhome+=3;
-    scoreHome.textContent+=sumhome;
+    scoreHome.textContent=sumhome;
 }
 let sumaway=0;
 function oneaway(){
     sumaway+=1;
-    scoreAway.textContent+=sumaway;
+    scoreAway.textContent=sumaway;
 }
 function twoaway(){
     sumaway+=2;
-    scoreAway.textContent+=sumaway;
+    scoreAway.textContent=sumaway;
 }
 function threeaway(){
     sumaway+=3;
-    scoreAway.textContent+=sumaway;
+    scoreAway.textContent=sumaway;
 }
 function reset(){
     sumaway=0;
