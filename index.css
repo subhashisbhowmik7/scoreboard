@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #191970;
+                                        
+}
+.container-pro{
+    display: flex;
+    flex-direction: column;
+    
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 80vh;
+    background-color: #191970;
+    align-items: center;
+    justify-content: space-around ;
+}
+
+.team{
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.team h3{
+    margin: 10px;
+    color: whitesmoke;
+    font-size: 50px;
+}
+#scorehome{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+    min-width: 250px;
+    color:orangered;
+    font-size: 100px;
+    background-color: #010101;
+    border: none;
+    border-radius: 20px;
+    
+}
+#scoreaway{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+    min-width: 250px;
+    color:orangered;
+    font-size: 100px;
+    background-color: #010101;
+    border: none;
+    border-radius: 20px;
+    
+}
+.point-ctr{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.one{
+    
+    border-color: deepskyblue; 
+    color:deepskyblue;
+    background-color: #191970;
+    border: 2px solid deepskyblue;
+        font-size: 25px;;
+        font-family: 'Orbitron', sans-serif;
+
+}
+.two{
+    margin-left:10px;
+    margin-right:10px;
+    border-color: deepskyblue;
+    color:deepskyblue;
+    background-color: #191970;
+    font-size: 25px;
+    border: 2px solid deepskyblue;
+    font-family: 'Orbitron', sans-serif;
+
+}
+.three{
+    color:deepskyblue;
+    background-color: #191970;
+    border: 2px solid deepskyblue;
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+#reset{
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 12px;
+    color:white;
+    margin-top: 10px;
+    border-radius: 2px;
+    background-color: #191970;
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+}
+
+
